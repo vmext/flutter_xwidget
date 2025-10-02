@@ -1,0 +1,23 @@
+name: flutter_xwidget
+description: 扩展 Flutter 基础 Widgets 与便捷语法，提升 UI 代码可读性与开发效率。
+version: 0.1.0
+homepage: https://github.com/vmxy/xview/tree/main/flutter_xwidget
+repository: https://github.com/vmxy/xview
+issue_tracker: https://github.com/vmxy/xview/issues
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

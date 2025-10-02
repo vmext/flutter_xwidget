@@ -1,0 +1,11 @@
+name: Manual check (no publish)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print info
+        run: echo "Manual workflow for flutter_xwidget; publishing is handled by repo-level workflow."
